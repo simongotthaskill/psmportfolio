@@ -7,7 +7,7 @@
  .hero{
      height: 100vh;
      width: 100%;
-     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio/macstation.jpg);
+     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url("https://simongotthaskill.github.io/psmportfolio/macstation.jpg");
      background-size: cover;
      background-position: center;
 }
