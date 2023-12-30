@@ -231,9 +231,11 @@ h5 {
     cursor: pointer;
 }
 .contact-me{
+    padding: 0;
+    margin: 0;
     width: 100%;
-    height: 290px;
-    background: #191919;
+    height: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio/macstation.jpg);;
     display: flex;
     align-items: center;
     flex-direction: column;
