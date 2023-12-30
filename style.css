@@ -262,6 +262,9 @@ h5 {
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+.form-container{
+    margin-left: 0;
+}
 footer{
     position: relative;
     width: 100%;
