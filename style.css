@@ -15,7 +15,7 @@
  .hero{
      height: 100vh;
      width: 100%;
-     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
+     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio//macstation.jpg);
      background-size: cover;
      background-position: center;
 }
@@ -115,7 +115,7 @@ h4{
     width: 100%;
     height: 100%;
     padding: 100px 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio//macstation.jpg);
 }
 .about img{
     height: 80%;
@@ -169,7 +169,7 @@ button:hover{
     cursor: pointer;
 }
 .service{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio//macstation.jpg);
     height: 100%;
     width: 100%;
     padding: relative;
@@ -239,7 +239,7 @@ h5 {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio/macstation.jpg);
     display: flex;
     align-items: center;
     flex-direction: column;
