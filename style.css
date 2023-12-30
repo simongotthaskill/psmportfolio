@@ -1,21 +1,21 @@
-
 *{
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizzing: border-box;
  }
-body{
+ body{
     padding: 0;
     margin: 0;
     height: 100%;
     width: 100%;
+    background-color: rgb(72, 113, 97);
     overflow-x: hidden;
 }
  .hero{
      height: 100vh;
      width: 100%;
-     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio/macstation.jpg);
+     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
      background-size: cover;
      background-position: center;
 }
@@ -115,11 +115,12 @@ h4{
     width: 100%;
     height: 100%;
     padding: 100px 0px;
-    background-color: brown;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
 }
 .about img{
-    height: auto;
-    width: 430px;
+    height: 80%;
+    width: 330px;
+    padding-bottom: 14%;
 }
 .about-text{
     width: 550px;
@@ -131,7 +132,6 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex: 1;
 }
 .about-text h2{
     color: white;
@@ -169,9 +169,12 @@ button:hover{
     cursor: pointer;
 }
 .service{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio/macstation.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
+    height: 100%;
     width: 100%;
-    padding: 100px 0px;
+    padding: relative;
+    position: center;
+    padding-right: 25%
 }
 .title h2{
     color: white;
@@ -204,6 +207,7 @@ button:hover{
     margin: 25px 0px;
     color: #f9004d;
 }
+     
 h5 {
     color: white;
     font-size: 23px;
@@ -212,7 +216,7 @@ h5 {
 .pra p{
     color: #fcfc;
     font-size: 16px;
-    line-height: 27px;
+    line-height: relative;
     margin-bottom: 25px;
 }
 .card .button{
@@ -234,12 +238,13 @@ h5 {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100px;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://simongotthaskill.github.io/psmportfolio/macstation.jpg);;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(file:///home/shvdow/Documents/New%20Project/PORTFOLIO/macstation.jpg);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding: left;
 }
 .contact-me p{
     color: white;
@@ -266,7 +271,7 @@ h5 {
     margin-left: 0;
 }
 footer{
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 400px;
     background: #101010;
@@ -274,8 +279,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    bottom: 0;
+    padding-bottom: none;
 }
 footer p:nth-child(1){
    font-size: 15px;
