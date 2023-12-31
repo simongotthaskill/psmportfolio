@@ -120,9 +120,8 @@ h4{
     background-position: center;
 }
 .about img{
-    height: 80%;
+    height: 80vh;
     width: 330px;
-    padding-bottom: 14%;
 }
 .about-text{
     width: 550px;
