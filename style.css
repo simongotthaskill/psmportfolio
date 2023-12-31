@@ -320,13 +320,11 @@ footer p:nth-child(2){
    transition: .2s;
 }
 .end{
-   position: absolute;
+   position: center;
    color: #f9004d;
    bottom: 35px;
    font-size: 12px;
 }
-
-
 
 
 
